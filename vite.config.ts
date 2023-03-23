@@ -11,8 +11,7 @@ import {
   NutuiResolve,
   AntdResolve
 } from 'vite-plugin-style-import'
-// @ts-ignore
-import postcsspxtoviewport from 'postcss-px-to-viewport'
+import postcsspxtoviewport from 'postcss-px-to-viewport-8-plugin'
 
 // https://vitejs.dev/config/
 export default defineConfig({
